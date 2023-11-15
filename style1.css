@@ -1,0 +1,109 @@
+/* colors {
+    rgb(25,0,25)                cel mai inchis
+    rgb(43, 18, 76)
+    rgb(82, 43, 91)
+    rgb(133, 79, 108)
+    rgb(223, 182, 178)
+    rgb(251, 228, 216)          cel mai deschis
+} */
+
+body {
+    background-image: linear-gradient(rgba(25,0,25,0.5),rgba(25,0,25,0.85)), url('fundal.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+    color: rgb(251, 228, 216);
+}
+
+body h1 {
+    font-size: 64px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+thead {
+    background-color: rgb(223, 182, 178);
+    color: rgb(43, 18, 76);
+}
+
+thead th {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.Table_Tags {
+    border-top: 4px solid rgb(251, 228, 216);
+    padding-bottom: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: auto;
+}
+
+.Table_Attributes {
+    padding-bottom: 40px;
+    border-top: 4px solid rgb(251, 228, 216);
+    margin-left: 5%;
+    margin-right: 5%;
+    width: auto;
+}
+
+.quote {
+    margin-bottom: 40px;
+    border-top: 4px solid rgb(251, 228, 216);
+    border-bottom: 4px solid rgb(251, 228, 216);
+    margin-left: 30%;
+    margin-right: 30%;
+    width: auto;
+    font-family: 'Bodoni Poster', serif;
+    letter-spacing: 1px;
+    line-height: 140%;
+    color: rgb(223, 182, 178);
+}
+
+table {
+    width: 100%;
+    background-color: rgba(82, 43, 91, 0.5);
+    color: rgb(254,250,224);
+    border-collapse: collapse;
+    border: 1px solid rgb(251, 228, 216);
+}
+
+.description {
+    width: 60%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.tags {
+    width: 10%;
+    padding: 5px;
+}
+
+.tag {
+    background-color: rgb(251, 228, 216);
+    color: rgb(25,0,25);
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+
+td, th {
+    border: 1px solid rgb(251, 228, 216);
+}
+
+td {
+    letter-spacing: 1px;
+}
+
+.name {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
